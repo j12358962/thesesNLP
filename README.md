@@ -6,7 +6,7 @@
 2. 安裝需要的套件，執行 ```pip install -r requirements.txt```
 
 ## (選) 下載 train 好的 model 及 維基百科已分詞過的資料
-shorturl.at/ixJN5
+[shorturl.at/ixJN5](https://)
 
 ## 如果想自己重新 train 一個 model：
 1. 將資料放入 data/corpus_words (相對文件根目錄)
