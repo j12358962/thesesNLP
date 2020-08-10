@@ -17,7 +17,7 @@ db_settings = {
     "port": 3306,
     "user": "root",
     "password": "123456",
-    "db": "theses-content",
+    "db": "thesesComparison",
     "charset": "utf8"
 }
 

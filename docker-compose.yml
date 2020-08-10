@@ -1,0 +1,16 @@
+version: '2.1'
+
+services:
+  mysql:
+    container_name: theses_comparison_mysql
+    image: mysql:5.7
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    ports:
+      - 6017:3306
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_DATABASE=thesesComparison
+      - MYSQL_USER=thesesComparison
+      - MYSQL_PASSWORD=thesesComparisonMysql
+    volumes: 
+      - "./init:/docker-entrypoint-initdb.d/"
