@@ -1,8 +1,8 @@
 # 論文相似度比較程式
 
 ## 第一次使用：
-1. 先 Creat 一個 Schema 名為 theses-content
-再執行 DumpToYourMYSQL 資料夾中 3 個 SQL 檔的 SQL 指令，創建 Table 並存入資料
+1. 安裝 docker compose 後，在有 ```docker-compose.yml``` 的目錄執行
+ ```docker-compose down && docker-compose up -d && docker-compose up```
 2. 安裝需要的套件，執行 ```pip install -r requirements.txt```
 
 ## (選) 下載 train 好的 model 及 維基百科已分詞過的資料
